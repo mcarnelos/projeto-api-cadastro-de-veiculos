@@ -9,11 +9,11 @@
 		<version>2.4.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>Exercicio-5</groupId>
-	<artifactId>Exercicio-5</artifactId>
+	<groupId>api-cadastro-de-veiculos</groupId>
+	<artifactId>api-cadastro-de-veiculos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Exercicio-5</name>
-	<description>Exercicio5</description>
+	<name>api-cadastro-de-veiculos</name>
+	<description>api-cadastro-de-veiculos</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

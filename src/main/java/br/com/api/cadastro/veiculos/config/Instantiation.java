@@ -1,5 +1,6 @@
 package br.com.api.cadastro.veiculos.config;
 
+import java.time.Instant;
 import java.util.Arrays;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,9 +21,9 @@ public class Instantiation implements CommandLineRunner{
 		
 		veiculosRepository.deleteAll();
 		
-		Veiculos v1 = new Veiculos(null, "HB20", "Hyundai", 2014, "Hyundai HB20 2014" , false, null, null);
-		Veiculos v2 = new Veiculos(null, "i30", "Hyundai", 2017, "Hyundai i30 2017" , true, null, null);
-		Veiculos v3 = new Veiculos(null, "ix35", "Hyundai", 2016, "Hyundai ix35 2016" , false, null, null);
+		Veiculos v1 = new Veiculos(null, "HB20", "Hyundai", 2014, "Hyundai HB20 2014" , false, Instant.now(), null);
+		Veiculos v2 = new Veiculos(null, "i30", "Hyundai", 2017, "Hyundai i30 2017" , true, Instant.now(), null);
+		Veiculos v3 = new Veiculos(null, "ix35", "Hyundai", 2016, "Hyundai ix35 2016" , false, Instant.now(), null);
 		
 		veiculosRepository.saveAll(Arrays.asList(v1, v2, v3));
 		
