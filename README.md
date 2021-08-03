@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-Projeto de uma Api Rest que faz cadastro de Veículos em Java.
+Projeto de uma Api Rest que faz cadastro de Veículos em Java, onde é possivel buscar, cadastrar, atualizar e apagar um veículo.
 
 ## Features
 - Cadastro de Veículos com verbo POST /veiculos
